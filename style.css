@@ -20,6 +20,14 @@ h1 {
   text-shadow: 2px 2px 5px #0984e3;
 }
 
+#Up-O,
+#Mi-W,
+#Bo-G {
+  height: 136px;
+  width: 612px;
+}
+
+
 #mid {
   display: flex;
   justify-content: center;
@@ -34,19 +42,19 @@ h1 {
 }
 
 #Up-O {
-  height: 136px;
-  width: 612px;
   background-color: #F26827;
 }
 
 
 #Mi-W {
-  height: 136px;
-  width: 612px;
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#Bo-G {
+  background-color: #028542;
 }
 
 #Chakra {
@@ -69,128 +77,70 @@ h1 {
   position: absolute;
 }
 
-#lines1 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(0deg);
-  transform-origin: center;
-}
-
-#lines2 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(15deg);
-  transform-origin: center;
-}
-
-#lines3 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(30deg);
-  transform-origin: center;
-}
-
-#lines4 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(45deg);
-  transform-origin: center;
-}
-
-#lines5 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(60deg);
-  transform-origin: center;
-}
-
-#lines6 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(75deg);
-  transform-origin: center;
-}
-
-#lines7 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(90deg);
-  transform-origin: center;
-}
-
-#lines8 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(105deg);
-  transform-origin: center;
-}
-
-#lines9 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(120deg);
-  transform-origin: center;
-}
-
-#lines10 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(135deg);
-  transform-origin: center;
-}
-
-#lines11 {
-  height: 136px;
-  width: 4px;
-  background-color: #012639;
-  position: absolute;
-  border-radius: 80%;
-  transform: rotate(150deg);
-  transform-origin: center;
-}
-
+#lines1,
+#lines2,
+#lines3,
+#lines4,
+#lines5,
+#lines6,
+#lines7,
+#lines8,
+#lines9,
+#lines10,
+#lines11,
 #lines12 {
   height: 136px;
   width: 4px;
   background-color: #012639;
   position: absolute;
   border-radius: 80%;
-  transform: rotate(165deg);
   transform-origin: center;
 }
 
-#Bo-G {
-  height: 136px;
-  width: 612px;
-  background-color: #028542;
+#lines1 {
+  transform: rotate(0deg);
+}
+
+#lines2 {
+  transform: rotate(15deg);
+}
+
+#lines3 {
+  transform: rotate(30deg);
+}
+
+#lines4 {
+  transform: rotate(45deg);
+}
+
+#lines5 {
+  transform: rotate(60deg);
+}
+
+#lines6 {
+  transform: rotate(75deg);
+}
+
+#lines7 {
+  transform: rotate(90deg);
+}
+
+#lines8 {
+  transform: rotate(105deg);
+}
+
+#lines9 {
+  transform: rotate(120deg);
+}
+
+#lines10 {
+  transform: rotate(135deg);
+}
+
+#lines11 {
+  transform: rotate(150deg);
+}
+
+#lines12 {
+  transform: rotate(165deg);
 }
